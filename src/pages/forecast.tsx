@@ -91,6 +91,14 @@ function ForecastPage() {
             ))}
           </div>
 
+          <div className="flex justify-center">
+            <button className="mt-6 bg-blue-600 text-white p-2 px-4 rounded-xl  hover:bg-blue-800">
+              <a href="/" >
+                Back to Home
+              </a>
+            </button>
+          </div>
+
         </div>
       </div>
     </div>
