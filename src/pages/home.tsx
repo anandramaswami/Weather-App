@@ -13,7 +13,7 @@ function HomePage() {
 
     const getRealTimeWeather = async () => {
         if (location !== "") {
-            const response = await axios.get(`https://api.weatherapi.com/v1/current.json?key=${import.meta.env.VITE_WEATHER_API_KEY}&q=${location}`)
+            const response = await axios.get(`http://api.weatherapi.com/v1/current.json?key=9b4e13dc1bd447a4a7990414250411&q=${location}`)
             setRealTimeResponse(response.data)
         } else {
             toast("Enter a location to get weather details!", {

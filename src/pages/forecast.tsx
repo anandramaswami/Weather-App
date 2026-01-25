@@ -14,7 +14,7 @@ function ForecastPage() {
   const viewforecast = async () => {
     try {
       setisLoading(true)
-      const response = await axios.get(`https://api.weatherapi.com/v1/forecast.json?key=${import.meta.env.VITE_WEATHER_API_KEY}&q=${location}&days=7&aqi=no&alerts=no`)
+      const response = await axios.get(`http://api.weatherapi.com/v1/forecast.json?key=9b4e13dc1bd447a4a7990414250411&q=${location}&days=7&aqi=no&alerts=no`)
       setForecast(response.data)
       setisLoading(false)
       console.log(forecast?.forecast.forecastday)
