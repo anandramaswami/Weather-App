@@ -1,4 +1,4 @@
-import { AirplayIcon, AirVentIcon, ArrowRight, ClockAlertIcon, CloudAlertIcon, CloudRainWindIcon, DropletOffIcon, Droplets, DropletsIcon, PercentCircle, WindIcon } from 'lucide-react'
+import { ArrowRight, CloudAlertIcon, CloudRainWindIcon, DropletsIcon, PercentCircle, WindIcon } from 'lucide-react'
 import { useContext, useEffect, useState } from 'react'
 import { useNavigate } from 'react-router'
 import axios from 'axios'
